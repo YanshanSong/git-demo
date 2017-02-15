@@ -3,7 +3,7 @@
    就是在本地文件夹中添加了一个.git的文件夹用于记录所有的项目变更信息
 
 2. git status
-   --用于查看仓库的状态
+   --用于查看仓库(暂存区)的状态
    --第一次查看，显示的是所有没有被跟踪的文件
    --列出当前目录所有还没有被git管理的文件和被git管理且被修改但还未提交(git commit)的文件
    git status -s  输出简要的变更日志
@@ -35,9 +35,18 @@
    --增加一个新的远程仓库，并命名
 
 9. git pull [remote shortname] [branch]
-   --取回远程仓库的变化，并与本地分支合git
+   --取回远程仓库的变化，并与本地分支合并
    
 10. git push -u [remote shortname] [branch]
     --上传本地指定分支到远程仓库	
     git push -u [remote shortname] --all
     --推送所有分支到远程仓库 
+
+11. git branch 
+    --列出所有本地分支
+
+    git branch [branch-name]
+    --新建一个分支，但依然停留在当前分支
+
+    git checkout [branch-name]
+    --切换到指定分支，并更新工作区
