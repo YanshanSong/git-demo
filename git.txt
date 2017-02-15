@@ -28,7 +28,16 @@
 6. git log
    --查看提交日志
 
-7. git reset --hard 版本号前六位
-   回退版本 
+7. git reset --hard+版本号前六位
+   --从本地仓库回退版本 
 
+8. git remote add [shortname一般起orgin] [url] 
+   --增加一个新的远程仓库，并命名
+
+9. git pull [remote shortname] [branch]
+   --取回远程仓库的变化，并与本地分支合git
    
+10. git push -u [remote shortname] [branch]
+    --上传本地指定分支到远程仓库	
+    git push -u [remote shortname] --all
+    --推送所有分支到远程仓库 
