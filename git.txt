@@ -39,6 +39,8 @@
    
 10. git push -u [remote shortname] [branch]
     --上传本地指定分支到远程仓库	
+    --若不指定分支，即为当前分支
+
     git push -u [remote shortname] --all
     --推送所有分支到远程仓库 
 
