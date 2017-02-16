@@ -55,5 +55,3 @@
 	
     git checkout [branch-name]
     --切换到指定分支，并更新工作区
-
-12. git v2
