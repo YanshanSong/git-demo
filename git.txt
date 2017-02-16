@@ -1,4 +1,4 @@
-//这是master版本
+//这是master版本 
 1. git init
    --初始化本地GIT仓储
    就是在本地文件夹中添加了一个.git的文件夹用于记录所有的项目变更信息
@@ -41,9 +41,13 @@
 10. git push -u [remote shortname] [branch]
     --上传本地指定分支到远程仓库	
     git push -u [remote shortname] --all
-    --推送所有分支到远程仓库 
+    --推送所有分支到远程仓库
+    注意：所有分支独立进行推送，不会把当前分支的修改推送到其他分支
+          即 master -->  master
+             v2     -->  v2
+             v3     -->  v3
 
-11. git branchgit
+11. git branch
     --列出所有本地分支
 
     git branch [branch-name]
